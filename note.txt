@@ -1,0 +1,14 @@
+Install TypeScript as a dev dependency in your project:
+
+npm install --save-dev typescript
+
+Create a tsconfig.json file to configure the compiler options:
+
+npx tsc --init
+
+then in tsconfig.json uncomment "outDir": "./build" and "rootDir": "./src"
+
+Compile TypeScript files:
+
+npx tsc
+npx tsc -w 
